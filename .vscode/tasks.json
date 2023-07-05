@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "buildTexture2D",
+			"command": "pwd ; mkdir build; cd build; cmake ../ && make  -j10 ;",
+			"group": "build",
+			"problemMatcher": []
+		}, 
+	]
+}
